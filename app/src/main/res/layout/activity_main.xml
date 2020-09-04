@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sign Language"
+            android:textColor="#FF0000"
+            android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="70dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/sign_lang"
+        android:layout_marginLeft="75dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+
+    <Button
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Select Video"
+            android:bottomRightRadius="20dp"
+            android:bottomLeftRadius="20dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="20dp"
+            android:background="#ffcc00"
+            android:textColor="#FFFFFF"/>
+        <VideoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/vv"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="      Predict      "
+            android:bottomRightRadius="200dp"
+            android:bottomLeftRadius="200dp"
+            android:topLeftRadius="200dp"
+            android:topRightRadius="200dp"
+
+            android:textColor="#FFFFFF"
+            android:background="#990000"/>
+
+
+
+
+</LinearLayout>
+
